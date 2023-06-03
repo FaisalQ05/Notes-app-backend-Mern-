@@ -1,3 +1,3 @@
-const allowedOrigins = ["http://localhost:5173"]
+const allowedOrigins = ["https://notes-app-react-rtk.netlify.app"]
 
 module.exports = allowedOrigins
