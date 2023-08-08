@@ -28,7 +28,7 @@ app.all('*', (req, res) => {
     res.json("404 not found")
 })
 
-
+console.log("******************************************************* comment")
 app.use(errorHandler)
 
 mongoose.connection.once('open', () => {
